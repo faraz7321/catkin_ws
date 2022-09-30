@@ -3,10 +3,11 @@ import rospy
 from beginner_tutorials.msg import WaveForm
 import numpy as np
 
+
 def signal_configurator():
-    pub = rospy.Publisher('signal_config' , WaveForm, queue_size=10)
+    pub = rospy.Publisher('signal_config', WaveForm, queue_size=10)
     rospy.init_node('signal_configurator', anonymous=True)
-    rate = rospy.Rate(10) # 10hz
+    rate = rospy.Rate(10)  # 10hz
     while not rospy.is_shutdown():
         waveform = WaveForm()
         waveform.period = 1.0
