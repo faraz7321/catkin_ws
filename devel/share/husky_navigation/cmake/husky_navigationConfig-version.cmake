@@ -1,0 +1,1 @@
+/home/foronz/catkin_ws/devel/.private/husky_navigation/share/husky_navigation/cmake/husky_navigationConfig-version.cmake

@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target _beginner_tutorials_generate_messages_check_deps_WaveForm[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_AddTwoInts
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_WaveForm
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_Student
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  5%] [34m[1mGenerating Python from MSG beginner_tutorials/WaveForm[0m
+[ 11%] [34m[1mGenerating Lisp code from beginner_tutorials/WaveForm.msg[0m
+[ 16%] [34m[1mGenerating Javascript code from beginner_tutorials/WaveForm.msg[0m
+[ 22%] [34m[1mGenerating C++ code from beginner_tutorials/WaveForm.msg[0m
+[ 33%] Built target beginner_tutorials_generate_messages_lisp
+[ 44%] Built target beginner_tutorials_generate_messages_nodejs
+[ 50%] [34m[1mGenerating EusLisp code from beginner_tutorials/WaveForm.msg[0m
+[ 61%] Built target beginner_tutorials_generate_messages_cpp
+[ 72%] [34m[1mGenerating Python msg __init__.py for beginner_tutorials[0m
+[ 72%] [34m[1mGenerating Python srv __init__.py for beginner_tutorials[0m
+[ 88%] Built target beginner_tutorials_generate_messages_eus
+[100%] Built target beginner_tutorials_generate_messages_py
+[100%] Built target beginner_tutorials_generate_messages

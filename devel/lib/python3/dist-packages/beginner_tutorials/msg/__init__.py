@@ -1,0 +1,1 @@
+/home/foronz/catkin_ws/devel/.private/beginner_tutorials/lib/python3/dist-packages/beginner_tutorials/msg/__init__.py

@@ -1,0 +1,38 @@
+[01m[K/home/foronz/catkin_ws/src/beginner_tutorials/src/listener.cpp:1:10:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+    1 | #include [01;35m[K"[m[Kros/ros.h'
+      |          [01;35m[K^[m[K
+[01m[K/home/foronz/catkin_ws/src/beginner_tutorials/src/listener.cpp:1:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+    1 | #include [01;31m[K"ros/ros.h'[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/foronz/catkin_ws/src/beginner_tutorials/src/listener.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/foronz/catkin_ws/src/beginner_tutorials/src/listener.cpp:9:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kinit[m[K’ is not a member of ‘[01m[Kros[m[K’
+    9 |     ros::[01;31m[Kinit[m[K(argc, argv, "talker");
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/foronz/catkin_ws/src/beginner_tutorials/src/listener.cpp:11:10:[m[K [01;31m[Kerror: [m[K‘[01m[KNodeHandle[m[K’ is not a member of ‘[01m[Kros[m[K’
+   11 |     ros::[01;31m[KNodeHandle[m[K n;
+      |          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/foronz/catkin_ws/src/beginner_tutorials/src/listener.cpp:13:10:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisher[m[K’ is not a member of ‘[01m[Kros[m[K’
+   13 |     ros::[01;31m[KPublisher[m[K chatter_pub = n.advertise<std_msgs::String>("chatter", 1000);
+      |          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/foronz/catkin_ws/src/beginner_tutorials/src/listener.cpp:14:20:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K_rate[m[K’
+   14 |     ros::Rate loop [01;31m[K_rate[m[K(10);
+      |                    [01;31m[K^~~~~[m[K
+[01m[K/home/foronz/catkin_ws/src/beginner_tutorials/src/listener.cpp:18:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kok[m[K’ is not a member of ‘[01m[Kros[m[K’
+   18 |     while (ros::[01;31m[Kok[m[K())
+      |                 [01;31m[K^~[m[K
+[01m[K/home/foronz/catkin_ws/src/beginner_tutorials/src/listener.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO[m[K’ was not declared in this scope
+   31 |         [01;31m[KROS_INFO[m[K("%s", msg.data.c_str());
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/foronz/catkin_ws/src/beginner_tutorials/src/listener.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kchatter_pub[m[K’ was not declared in this scope
+   32 |         [01;31m[Kchatter_pub[m[K.publish(msg);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/foronz/catkin_ws/src/beginner_tutorials/src/listener.cpp:33:14:[m[K [01;31m[Kerror: [m[K‘[01m[KspinOnce[m[K’ is not a member of ‘[01m[Kros[m[K’
+   33 |         ros::[01;31m[KspinOnce[m[K();
+      |              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/foronz/catkin_ws/src/beginner_tutorials/src/listener.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope
+   34 |         [01;31m[Kloop_rate[m[K.sleep();
+      |         [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:172: CMakeFiles/listener.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,1 @@
+/home/foronz/catkin_ws/devel/.private/husky_msgs/lib/python3/dist-packages/husky_msgs/msg/__init__.py
